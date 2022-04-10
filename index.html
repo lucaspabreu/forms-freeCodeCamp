@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  
+</head>
+<body>
+  <main id="main">
+    <div id="img-div">
+      <img id="img" src="https://i.ibb.co/zF0Zj3h/Logo-UDA5.png" alt="Logo Univeridade do Atacado">
+    </div>
+    <h1 id="title">Universidade do Atacado Formulário</h1>
+    <p id="description">Preencha os dados abaixo para cadastrar sua loja.</p>
+    
+    <form id="survey-form">
+      <div class="form-section">
+        <label id="name-label" for="name" >Name</label>
+        <input id="name" type="name" required placeholder="Enter your name">
+      </div>
+      
+      <div class="form-section">
+        <label id="email-label" for="name">E-mail</label>
+        <input id="email" type="email" required placeholder="Enter your email">
+      </div>
+      <div class="form-section">
+        <label id="number-label" for="name">Number</label>
+        <input id="number" type="number" min="0" max="100" required placeholder="Enter your number 0 - 100">
+      </div>
+        <div class="form-section">
+          <label for="lang">Dropdown</label>
+          <select name="languages" id="dropdown">
+            <option value="one">One</option>
+            <option value="two">Two</option>
+            <option value="two">Three</option>
+            <option value="two">Four</option>
+          </select>
+        </div>
+      
+      <div class="form-section-radio-check">
+        <label for="" class="check">
+          <input type="radio" name="name" value="one">One
+          <input type="radio" name="name" value="two">Two 
+          <input type="radio" name="name" value="three">Three 
+        </label>
+      </div>
+ 
+      <div class="form-section-radio-check">
+        <label for="" class="check">
+          <input type="checkbox" name="name" value="one">One
+          <input type="checkbox" name="name" value="two">Two 
+          <input type="checkbox" name="name" value="three">Three 
+        </label>
+      </div>
+ 
+      <div class="form-section-radio-check">
+        <label for="" class="text-area">
+        <textarea type="text" cols="30" rows="3" placeholder="Text Area">
+        </textarea>
+
+      </div>
+      
+      
+      
+      <button id="submit" type="submit">Submit</button>
+
+    </form>
+    </div>
+
+  </main>
+</body>
+</html>
